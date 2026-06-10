@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
     
     <style>
-        :root {
+        :root {iggy
             --cream: #F5F1E8;
             --charcoal: #2C2C2C;
             --leather: #6B4F3A;
@@ -25,6 +25,7 @@
             --cat-entertainment: #9CAF88;
             --cat-coffee: #8B5A2B;
             --cat-icecream: #E8B4B8;
+            --cat-park:949D7B;
             --shadow: rgba(44, 44, 44, 0.08);
             --shadow-md: rgba(44, 44, 44, 0.15);
             --shadow-lg: rgba(44, 44, 44, 0.25);
@@ -124,7 +125,9 @@
         .custom-marker.entertainment { background: var(--cat-entertainment); }
         .custom-marker.coffee { background: var(--cat-coffee); }
         .custom-marker.icecream { background: var(--cat-icecream); }
+        .custom-marker.park { background: var(--cat-park); }
 
+        
         .user-marker {
             width: 20px;
             height: 20px;
@@ -315,7 +318,9 @@
         .filter-chip.active.entertainment { background: var(--cat-entertainment); border-color: var(--cat-entertainment); }
         .filter-chip.active.coffee { background: var(--cat-coffee); border-color: var(--cat-coffee); }
         .filter-chip.active.icecream { background: var(--cat-icecream); border-color: var(--cat-icecream); color: var(--charcoal); }
+        .filter-chip.active.park { background: var(--cat-park); border-color: var(--cat-park); color: var(--charcoal); }
 
+        
         .fab-near-me {
             position: fixed;
             bottom: 24px;
@@ -470,7 +475,9 @@
         .category-badge.entertainment { background: rgba(156, 175, 136, 0.2); color: #5a6b4a; }
         .category-badge.coffee { background: rgba(139, 90, 43, 0.15); color: var(--cat-coffee); }
         .category-badge.icecream { background: rgba(232, 180, 184, 0.3); color: #A0525A; }
+        .category-badge.park { background: rgba(232, 180, 184, 0.3); color: #A0525A; }
 
+        
         .biz-name {
             font-size: 28px;
             font-weight: 700;
@@ -717,6 +724,7 @@
             <button class="filter-chip entertainment" data-category="entertainment"><span>🎭</span><span>Events</span></button>
             <button class="filter-chip coffee" data-category="coffee"><span>☕</span><span>Coffee</span></button>
             <button class="filter-chip icecream" data-category="icecream"><span>🍦</span><span>Ice Cream</span></button>
+            <button class="filter-chip park" data-category="park"><span>🍦</span><span>Park</span></button>
         </div>
     </header>
 
@@ -869,7 +877,7 @@
             {
                 id: 10,
                 name: "Wildhorse Ice Cream",
-                category: "icecream",
+                category: "park",
                 lat: 45.6745,
                 lng: -118.7865,
                 address: "727 SE 1st St, Pendleton, OR 97801",
@@ -888,6 +896,7 @@
             entertainment: { emoji: '🎭', label: 'Entertainment' },
             coffee: { emoji: '☕', label: 'Coffee' },
             icecream: { emoji: '🍦', label: 'Ice Cream' }
+            park: { emoji: '🍦', label: 'Ice park' }            
         };
 
         let map;
