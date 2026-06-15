@@ -716,7 +716,7 @@
             <button class="filter-chip art" data-category="art"><span>🎨</span><span>Art</span></button>
             <button class="filter-chip entertainment" data-category="entertainment"><span>🎭</span><span>Events</span></button>
             <button class="filter-chip coffee" data-category="coffee"><span>☕</span><span>Coffee</span></button>
-            <button class="filter-chip icecream" data-category="icecream"><span>🍦</span><span>Ice Cream</span></button>
+            <button class="filter-chip icecream" data-category="icecream"><span>🍦</span><span>Park</span></button>
         </div>
     </header>
 
@@ -868,7 +868,7 @@
             },
             {
                 id: 10,
-                name: "Wildhorse Ice Cream",
+                name: "Til Taylor Park",
                 category: "icecream",
                 lat: 45.6745,
                 lng: -118.7865,
@@ -876,8 +876,8 @@
                 phone: "(541) 276-8585",
                 website: "https://wildhorseresort.com",
                 hours: "Daily: 11AM-9PM",
-                description: "Handcrafted ice cream and frozen treats made with local Oregon dairy. Family favorite since 1995.",
-                youtubeId: "CevxZvSJLk8"
+                description: "Splash pad, swings, play structure.",
+                youtubeId: "H-wTzw70B-E"
             }
         ];
 
