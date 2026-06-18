@@ -716,7 +716,7 @@
             <button class="filter-chip art" data-category="art"><span>🎨</span><span>Art</span></button>
             <button class="filter-chip entertainment" data-category="entertainment"><span>🎭</span><span>Events</span></button>
             <button class="filter-chip coffee" data-category="coffee"><span>☕</span><span>Coffee</span></button>
-            <button class="filter-chip icecream" data-category="icecream"><span>🍦</span><span>Park</span></button>
+            <button class="filter-chip icecream" data-category="icecream"><span>🛝</span><span>Park</span></button>
         </div>
     </header>
 
@@ -887,7 +887,7 @@
             art: { emoji: '🎨', label: 'Art' },
             entertainment: { emoji: '🎭', label: 'Entertainment' },
             coffee: { emoji: '☕', label: 'Coffee' },
-            icecream: { emoji: '🍦', label: 'Ice Cream' }
+            icecream: { emoji: '🛝', label: 'Ice Cream' }
         };
 
         let map;
