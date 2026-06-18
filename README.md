@@ -887,7 +887,7 @@
             art: { emoji: '🎨', label: 'Art' },
             entertainment: { emoji: '🎭', label: 'Entertainment' },
             coffee: { emoji: '☕', label: 'Coffee' },
-            icecream: { emoji: '🛝', label: 'Ice Cream' }
+            icecream: { emoji: '🛝', label: 'Park' }
         };
 
         let map;
