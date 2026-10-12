@@ -775,16 +775,17 @@
             },
             {
                 id: 3,
-                name: "Rainbow Cafe",
-                category: "food",
-                lat: 45.67244,
-                lng: -118.78765,
-                address: "209 S Main St, Pendleton, OR 97801",
-                phone: "(541) 276-4120",
-                website: "https://thependletonrainbow.com/",
-                hours: "Sun: 6AM-12AM, Mon-Sat: 6AM-2AM",
-                description: "The oldest Tavern in Oregon operating since 1883. A true cowboy bar in the heart of rodeo town serving hearty American fare, breakfast highlights like Chuckwagon Benedict.",
-                youtubeId: ""
+                name: "ReRide Western Retail",
+                category: "retail",
+                lat: 45.67292,
+                lng: -118.78623,
+                address: "108 SE Court Ave, Pendleton, OR 97801",
+                phone: "(541) 310-7086",
+                website: "https://www.instagram.com/reride_western_resale",
+                hours: "Mon-Sat: 10AM-5:30PM, Sun: 10AM-3PM",
+                description: "Vintage, Western & Native American Clothing and Accessories
+",
+                youtubeId: "c_vyW7WxZRk"
             },
             {
                 id:4,
