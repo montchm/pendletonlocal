@@ -783,8 +783,7 @@
                 phone: "(541) 310-7086",
                 website: "https://www.instagram.com/reride_western_resale",
                 hours: "Mon-Sat: 10AM-5:30PM, Sun: 10AM-3PM",
-                description: "Vintage, Western & Native American Clothing and Accessories
-",
+                description: "Vintage, Western & Native American Clothing and Accessories",
                 youtubeId: "c_vyW7WxZRk"
             },
             {
@@ -817,7 +816,7 @@
             },
             {
                 id: 6,
-                name: "Crow Shadow Institute",
+                name: "Filler",
                 category: "retail",
                 lat: 45.6750,
                 lng: -118.7900,
@@ -830,7 +829,7 @@
             },
             {
                 id: 7,
-                name: "Pendleton Round-Up",
+                name: "Filler",
                 category: "entertainment",
                 lat: 45.6678,
                 lng: -118.8001,
@@ -843,7 +842,7 @@
             },
             {
                 id: 8,
-                name: "Vert Auditorium",
+                name: "Filler",
                 category: "entertainment",
                 lat: 45.6690,
                 lng: -118.7885,
@@ -856,7 +855,7 @@
             },
             {
                 id: 9,
-                name: "Great Pacific Wine & Coffee",
+                name: "Filler",
                 category: "food",
                 lat: 45.6722,
                 lng: -118.7889,
@@ -871,12 +870,12 @@
                 id: 10,
                 name: "Til Taylor Park",
                 category: "icecream",
-                lat: 45.6745,
-                lng: -118.7865,
-                address: "727 SE 1st St, Pendleton, OR 97801",
-                phone: "(541) 276-8585",
-                website: "https://wildhorseresort.com",
-                hours: "Daily: 11AM-9PM",
+                lat: 45.6732,
+                lng: -118.7794,
+                address: "700 SE Dorion, Pendleton, OR 97801",
+                phone: "(541) 276-8100",
+                website: "Pendleotonparcsandrec.com",
+                hours: "Daily: 6AM-9PM",
                 description: "Splash pad, swings, play structure.",
                 youtubeId: "H-wTzw70B-E"
             }
